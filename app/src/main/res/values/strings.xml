@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RPSApp</string>
+    <string name="user_choice_text">Your choice</string>
+    <string name="cpu_choice_stone">Your phone\'s choice: Stone</string>
+    <string name="cpu_choice_paper">Your phone\'s choice: Paper</string>
+    <string name="cpu_choice_scissors">Your phone\'s choice: Scissors</string>
+    <string name="letsplay_text">Let\'s play</string>
+</resources>

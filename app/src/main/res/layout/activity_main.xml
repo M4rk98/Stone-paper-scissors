@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.m4rk.rpsapp.MainActivity">
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/letsplay_text" />
+
+    <ImageView
+        android:id="@+id/userChoice"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:padding="10dp"
+        app:srcCompat="@drawable/stone" />
+
+    <TextView
+        android:id="@+id/isWin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/userChoice"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:textSize="24sp"
+        android:text="@string/user_choice_text" />
+
+    <TextView
+        android:id="@+id/cpuChoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/playButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+         />
+
+
+</RelativeLayout>
